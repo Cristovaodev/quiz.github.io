@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <title>Quiz</title>
+</head>
+
+
+<body>
+  <h1>Quiz
+  </h1>
+  <img class="info" src="info.png" alt="info" onclick="regras();" />
+  <a href="index.html" target="_self">
+    <img class="sair" src="logout.png" alt="sair" />
+  </a>
+  
+  <div class="principal">
+    <div class="left">
+      <img class="left_img" src="preview3.jpg" alt="img" />
+    </div>
+
+    <form action="" method="Post" accept-charset="utf-8" onsubmit="return verificar ();">
+      <div>
+
+        <p>
+          Introduza o seu nome!
+        </p>
+        <input type="text" name="resposta1" id="nome" placeholder="Seu nome" />
+      </div>
+
+      <center>
+        <div class="pai">
+          <p>
+            Qual extensão abaixo geralmente se refere a um arquivo de imagem?
+          </p>
+          <label for="resposta01">
+            <input type="radio" name="resposta01" id="resposta01" />
+            <div>
+              avi
+            </div>
+          </label>
+
+          <label for="resposta02">
+            <input type="radio" name="resposta01" id="resposta02" />
+            <div>
+              jpeg
+            </div>
+          </label>
+
+          <label for="resposta03">
+            <input type="radio" name="resposta01" id="resposta03" />
+            <div>
+              mp4
+            </div>
+          </label>
+
+          <label for="resposta04">
+            <input type="radio" name="resposta01" id="resposta04" />
+            <div>
+              3g2
+            </div>
+          </label>
+
+        </div>
+ 
+
+        <div class="pai">
+          <p>
+            Qual formato de arquivo abaixo é mais adequado para ser gravado num DVD para ser utilizado em consoles de games?
+          </p>
+          <label for="resposta11">
+            <input type="radio" name="resposta02" id="resposta11" />
+            <div>
+              mpg
+            </div>
+          </label>
+
+          <label for="resposta12">
+            <input type="radio" name="resposta02" id="resposta12" />
+            <div>
+              3gp
+            </div>
+          </label>
+
+          <label for="resposta13">
+            <input type="radio" name="resposta02" id="resposta13" />
+            <div>
+              iso
+            </div>
+          </label>
+
+          <label for="resposta14">
+            <input type="radio" name="resposta02" id="resposta14" />
+            <div>
+              ctrl
+            </div>
+          </label>
+        </div>
+
+
+        <div class="pai">
+          <p>
+            O novo navegador de internet da Microsoft é o?
+          </p>
+          <label for="resposta21">
+            <input type="radio" name="resposta03" id="resposta21" />
+            <div>
+              firefox
+            </div>
+          </label>
+
+          <label for="resposta22">
+            <input type="radio" name="resposta03" id="resposta22" />
+            <div>
+              chrome
+            </div>
+          </label>
+
+          <label for="resposta23">
+            <input type="radio" name="resposta03" id="resposta23" />
+            <div>
+              safari
+            </div>
+          </label>
+
+          <label for="resposta24">
+            <input type="radio" name="resposta03" id="resposta24" />
+            <div>
+              edge
+            </div>
+          </label>
+
+        </div>
+
+
+        <div class="pai">
+          <p>
+            Qual programa abaixo é usado para editar textos?
+          </p>
+
+          <label for="resposta31">
+            <input type="radio" name="resposta04" id="resposta31" />
+            <div>
+              excel
+            </div>
+          </label>
+
+          <label for="resposta32">
+            <input type="radio" name="resposta04" id="resposta32" />
+            <div>
+              nero
+            </div>
+          </label>
+
+          <label for="resposta33">
+            <input type="radio" name="resposta04" id="resposta33" />
+            <div>
+              vdownloader
+            </div>
+          </label>
+
+          <label for="resposta34">
+            <input type="radio" name="resposta04" id="resposta34" />
+            <div>
+              WORD
+            </div>
+          </label>
+
+        </div>
+
+
+        <div class="pai">
+          <p>
+            É um aplicativo voltado para a edição de áudio:
+          </p>
+          <label for="resposta41">
+            <input type="radio" name="resposta05" id="resposta41" />
+            <div>
+              audacity
+            </div>
+          </label>
+
+          <label for="resposta42">
+            <input type="radio" name="resposta05" id="resposta42" />
+            <div>
+              format factory
+            </div>
+          </label>
+
+          <label for="resposta43">
+            <input type="radio" name="resposta05" id="resposta43" />
+            <div>
+              power point
+            </div>
+          </label>
+
+          <label for="resposta44">
+            <input type="radio" name="resposta05" id="resposta44" />
+            <div>
+              windows media player
+            </div>
+          </label>
+
+        </div>
+
+
+        <div class="pai">
+          <p>
+            Um recurso do sistema operacional utilizado para navegar em arquivos e pastas é:
+          </p>
+          <label for="resposta51">
+            <input type="radio" name="resposta06" id="resposta51" />
+            <div>
+              área de trabalho
+            </div>
+          </label>
+
+          <label for="resposta52">
+            <input type="radio" name="resposta06" id="resposta52" />
+            <div>
+              painel de controle
+            </div>
+          </label>
+
+          <label for="resposta53">
+            <input type="radio" name="resposta06" id="resposta53" />
+            <div>
+              disco local
+            </div>
+          </label>
+
+          <label for="resposta54">
+            <input type="radio" name="resposta06" id="resposta54" />
+            <div>
+              windows explorer
+            </div>
+          </label>
+
+        </div>
+
+
+        <div class="pai">
+          <p>
+            Dentre eles São sistemas operacionais, excepto:
+          </p>
+          <label for="resposta61">
+            <input type="radio" name="resposta07" id="resposta61" />
+            <div>
+              windows 7
+            </div>
+          </label>
+
+          <label for="resposta62">
+            <input type="radio" name="resposta07" id="resposta62" />
+            <div>
+              windows 8
+            </div>
+          </label>
+
+          <label for="resposta63">
+            <input type="radio" name="resposta07" id="resposta63" />
+            <div>
+              mozilla firefox
+            </div>
+          </label>
+
+          <label for="resposta64">
+            <input type="radio" name="resposta07" id="resposta64" />
+            <div>
+              android
+            </div>
+          </label>
+
+        </div>
+
+
+        <div class="pai">
+          <p>
+            O formato AVI geralmente se trata de qual tipo de arquivo?
+          </p>
+
+          <label for="resposta71">
+            <input type="radio" name="resposta08" id="resposta71" />
+            <div>
+              música
+            </div>
+          </label>
+
+          <label for="resposta72">
+            <input type="radio" name="resposta08" id="resposta72" />
+            <div>
+              imagem
+            </div>
+          </label>
+
+          <label for="resposta73">
+            <input type="radio" name="resposta08" id="resposta73" />
+            <div>
+              vídeo
+            </div>
+          </label>
+
+          <label for="resposta74">
+            <input type="radio" name="resposta08" id="resposta74" />
+            <div>
+              aplicativo
+            </div>
+          </label>
+
+        </div>
+
+
+        <div class="pai">
+          <p>
+            Todas alternativas abaixo são exemplos de HARDWARE, excepto:
+          </p>
+
+          <label for="resposta81">
+            <input type="radio" name="resposta09" id="resposta81" />
+            <div>
+              placa mãe
+            </div>
+          </label>
+
+          <label for="resposta82">
+            <input type="radio" name="resposta09" id="resposta82" />
+            <div>
+              linux
+            </div>
+          </label>
+
+          <label for="resposta83">
+            <input type="radio" name="resposta09" id="resposta83" />
+            <div>
+              memória
+            </div>
+          </label>
+
+          <label for="resposta84">
+            <input type="radio" name="resposta09" id="resposta84" />
+            <div>
+              bateria
+            </div>
+          </label>
+
+        </div>
+
+
+        <div class="pai">
+          <p>
+            Todas alternativas abaixo são exemplos de SOFTWARE, excepto:
+          </p>
+          <label for="resposta91">
+            <input type="radio" name="resposta10" id="resposta91" />
+            <div>
+              power point
+            </div>
+          </label>
+
+          <label for="resposta92">
+            <input type="radio" name="resposta10" id="resposta92" />
+            <div>
+              calculadora
+            </div>
+          </label>
+
+          <label for="resposta93">
+            <input type="radio" name="resposta10" id="resposta93" />
+            <div>
+              word
+            </div>
+          </label>
+
+          <label for="resposta94">
+            <input type="radio" name="resposta10" id="resposta94" />
+            <div>
+              mouse
+            </div>
+          </label>
+
+        </div>
+      </center>
+
+      <input type="submit" name="enviar" id="enviar" value="Enviar" />
+    </form>
+    </div>
+
+  </body>
+</html>
