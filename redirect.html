@@ -11,13 +11,21 @@
       color: white;
       text-align: center;
     }
-      
     </style>
-  </head>
-  <body>
     <script type="text/javascript" charset="utf-8">
-      document.write("<h3>Ola! eu sou Cristóvão, sou desenvolvedor web.</h3><p>Quero agradecer por teres respondido a este quiz de informatica básica feito por mim. Espero que tenha gostado e desejo que volte sempre, pois havera novidades</p>")
+    
+    document.write("<h3>Ola! eu sou Cristóvão, sou desenvolvedor web.</h3><p>Quero agradecer por teres respondido a este quiz de informatica básica feito por mim. Espero que tenha gostado e desejo que volte sempre, pois havera novidades</p>");
+    function mmm(){
+       var timer=setTimeout(mostrar,7000);
+       
+      function mostrar(){
+        window.location.href="index.html";
+      }
+    }
     </script>
+  </head>
+  <body onpageshow="mmm();">
+    
     
   </body>
 </html>
