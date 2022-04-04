@@ -1,6 +1,7 @@
 function regras(){
   alert("Regras do quiz\n\n1️⃣Preencha o seu nome.\n2️⃣Cada alternativa correcta equivale a +10 pontos\n3️⃣São no total 10 perguntas e 100 pontos.");
 }
+fun
 
 
 
@@ -59,17 +60,19 @@ function verificar() {
   var nome = document.getElementById('nome').value;
   if (nome == "") {
     alert ("Preencha O Seu Nome⚠️⚠️⚠️");
+    document.getElementById("nome").focus();
+    
     return false;
   }
 
   if (ponto <= 30) {
-    alert ("Ola "+nome+"!\nTens: "+ponto+"pontos\n\nComp: Máu.");
+    alert ("Lamentamos por seu desempenho "+nome+"!\nTens: "+ponto+"pontos\n\nComp: Máu.");
   } else if ((ponto >= 31) && (ponto <= 50)) {
-    alert ("Ola "+nome+"!\nTens: "+ponto+"pontos\n\nComp: Medíocre.");
+    alert ("parabéns "+nome+"!\nTens: "+ponto+"pontos\n\nComp: Medíocre.");
   } else if ((ponto >= 51) && (ponto <= 80)) {
-    alert ("Ola "+nome+"!\nTens: "+ponto+"pontos\n\nComp: Bom.");
+    alert ("Parabéns "+nome+"!\nTens: "+ponto+"pontos\n\nComp: Bom.");
   } else if ((ponto >= 81) && (ponto <= 100)) {
-    alert ("Ola "+nome+"!\nTens: "+ponto+"pontos\n\nComp: Muito Bom.");
+    alert ("Parabéns "+nome+"!\nTens: "+ponto+"pontos\n\nComp: Muito Bom.");
   } else {
     document.write("Há algum erro");
   }
